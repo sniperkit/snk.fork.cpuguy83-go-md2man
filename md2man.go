@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -6,7 +11,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cpuguy83/go-md2man/md2man"
+	"github.com/sniperkit/snk.fork.cpuguy83-go-md2man/md2man"
 )
 
 var inFilePath = flag.String("in", "", "Path to file to be processed (default: stdin)")
